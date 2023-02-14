@@ -1,0 +1,114 @@
+/* Personal Website  Copyright 2023, Elvira Fatin */
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    list-style: none;
+}
+    
+body{
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 18px;
+    font-style: 300;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #dab847, #d373d4);
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.50em;
+}
+
+section {
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 0;
+}
+
+section:last-child{
+    margin-bottom: 60px;
+}
+
+a {
+    outline: none;
+    color: white;
+    font-weight: 700;
+}
+
+a:hover {
+    color:#fbc925;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+blockquote{
+    font-weight: 300;
+}
+
+h2:hover {
+    color: #232323;
+}
+
+nav{
+    display: flex;
+    background-color: #4c4b52;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
+    padding: 25px;
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+
+footer {
+    padding: 40px 0;
+    background: #3C3D41;
+    text-align: center;
+    font-size: 17px;
+}
+
+.copyright{
+    font-weight: 700;
+}
+
+h1{
+    grid-area: h1;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+.intro-block{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.intro, h1{
+    flex: 10%;
+    padding: 20px;
+    height: 1.7em;
+}
+
+.my-foto{
+    margin-left: 50px;
+    margin-top: 40px;
+    width: auto;
+    height: 280px;
+}
